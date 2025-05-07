@@ -1,16 +1,17 @@
-## Tech stack
-| | |
-|-|-|
-| Frontend | TypeScript, React, Webpack |
-| Backend | Node, Express |
-| Testing | Jest, React Testing Library |
-| Linting | ESLint |
+|                    |                             |
+| ------------------ | --------------------------- |
+| Frontend           | TypeScript, React, Webpack  |
+| Backend            | Node, Express               |
+| Testing            | Jest, React Testing Library |
+| Linting/Formatting | ESLint, Prettier            |
 
 ## System requirements
+
 - Node
-- npm package manager
+- npm
 
 ## Run the application
+
 - Install dependencies
   - `npm install`
 - Build client bundle with one of the following:
@@ -24,4 +25,5 @@
 - Navigate to http://localhost:3000
 
 ## Testing
+
 - `npm test`
