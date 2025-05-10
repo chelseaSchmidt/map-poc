@@ -1,29 +1,10 @@
-|                    |                             |
-| ------------------ | --------------------------- |
-| Frontend           | TypeScript, React, Webpack  |
-| Backend            | Node, Express               |
-| Testing            | Jest, React Testing Library |
-| Linting/Formatting | ESLint, Prettier            |
+## Prerequisites
 
-## System requirements
-
-- Node
 - npm
 
-## Run the application
+## Commands
 
-- Install dependencies
-  - `npm install`
-- Build client bundle with one of the following:
-  - `npm run build-dev`
-  - `npm run build-watch`
-  - `npm run build-prod`
-- Start server with one of the following:
-  - `npm run start-dev`
-  - `npm run start-prod`
-  - Optionally define environment variable `PORT` (defaults to 3000)
-- Navigate to http://localhost:3000
-
-## Testing
-
-- `npm test`
+- Install dependencies: `npm install`
+- Start dev server: `npm start`
+- Build prod bundle: `npm run build`
+- Run unit tests: `npm test`
